@@ -1,0 +1,366 @@
+.body{
+    display: flex;
+    
+}
+.body1{
+    width: 98%;
+    align-items: center;  
+    background-color: #fff; 
+    width: 1300px;
+}
+
+.head{
+    /* position: relative; */
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 1380px;
+    height: 10.2vh;
+    background-color: #fff;
+    box-shadow: 4px 0 4px 0 #ccc;
+}
+a{
+    text-decoration: none;
+}
+.head a{
+    display: block;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 10.2vh;
+    color: rgb(4, 6, 11);
+}
+.head p{
+    font-size: 15px;
+    color: #888;
+    line-height:5vh;
+
+}
+.middle{
+    display: flex;
+    width: 100%;
+    /* height: 189.8vh; */
+    height: 100%;
+    background-color: #c52828;
+    box-shadow: 4px 0 4px 0 #ccc;
+
+}
+.m-nav{
+    position: fixed;
+    top: 10.2vh;
+    width: 10%;
+    height: 89.8vh;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    background-color: #FFF;
+
+}
+.m-a{
+    margin-top: 40px;
+} 
+.m-ma{
+    text-align: center;
+    margin-top: 200px;
+}
+.m-a a{
+    display: block;
+    font-size: 17px;
+    color: #383535;
+    text-align: center;
+    margin-top: 20px;
+}
+.m-ma img{
+    width: 130px;
+    height: 130px;
+}
+.p{
+    display: block;
+    text-align: center;
+    color: #888;
+}
+.m-left{
+    top: 12vh;
+    position: absolute;
+    left: 12%;
+    background-color: #EFEFEF;
+}
+.ml-head{
+    display: flex;
+    justify-content: space-between;
+    width: 1270px;
+    height: 350px;
+    background-color: #EFEFEF;
+}
+.mlh-left img{
+    display: block;
+    width: 900px;
+    height: 100%;
+    background-color: #c23b3b;
+    box-shadow: rgba(60, 57, 57, 0.79);
+    border-radius: 10px;
+}
+
+.mlh-right{
+    display: block;
+    width: 322px;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(82, 77, 77, 0.79);
+    border-radius: 10px;
+}
+.mlh-right img{
+    width: 100%;
+    height: 50%;
+    background-color: #aab36e;
+    border-radius: 10px;
+
+}
+.mlhr-1{
+    border-radius: 50%;
+}
+.mlhr-1 img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    border-radius: 50%;
+}
+.mlh-right a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(60, 57, 57, 0.79);
+}
+.mlh-right p{
+    font-size: 10px;
+    color: #999;
+    margin: 3px 0 15px 0;
+}
+.ml-head-but a{
+    display: inline-block;
+    width: 77px;
+    height: 25px;
+    font-size: 15px;
+    /* line-height: 5px; */
+
+}
+.ml-head-but a:nth-child(1){
+    color: #FFF;
+    background-color: black;
+    border: 3px solid black;
+}
+.ml-head-but a:nth-child(2){
+    color: black;
+    background-color: #fff;
+    border: 3px solid black;
+}
+.ml-body{
+    width: 96%;
+    background-color: #EFEFEF;
+}
+.ml-body p{
+    padding-left: 20px;
+    font-weight: bolder;
+    border-left: 3px solid #000;
+    margin: 20px 0 #fff;
+
+
+}
+.mlb-zp{
+    width:100%;
+}
+.ml-body ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    width: 100%;
+    padding: 0;
+
+}
+.mlb-zp ul li {  
+    display: block;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 2.6%;
+    margin-top: 20px;
+}
+
+/* 避免塌陷 */
+/* 弹性布局不美观（每行不足4个时，此行不整齐） */
+.mlb-zp ul li:nth-child(4n+4) {
+    margin-right: 0;
+
+}
+
+
+.mlb-zp ul li img{
+    width: 100%;
+    height: 22.222vh;
+    border-radius: 10px;
+
+
+}
+.mlb-zp p{
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+
+} 
+/*
+.mb h1{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    border-left: 3px solid #000;
+    margin: 20px 0;
+}
+.mb-text{
+    width: 1270px;
+    height: 100%;
+    display: flex;
+    left: 0;
+}
+.mb-sheng{
+    width: 171vh;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.mb-text img{
+    width: 300px;
+    height: 95%;
+    padding: 5px 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.mb-text h4{
+    display: block;
+    padding: 20px 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+.mb-text a{
+    color: #000;
+}
+.mb-text p{
+    color: #888;
+}
+ */
+ .mb-sheng p{
+    padding-left: 20px;
+    font-weight: bolder;
+    border-left: 3px solid #000;
+    margin: 20px 0 #fff;
+ }
+.sheng{
+    display: block;
+    width: 1270px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.sheng{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sheng div{
+    flex: 1 0 auto;
+}
+
+.sheng-box{
+    display: flex;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.sheng-box img{
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 15px 19px;
+    border-radius: 10px;
+    background-color: #aab36e;
+}
+
+.sheng-text h4{
+    font-size: 20px;
+    padding-left: 0;
+    color: #000;
+    font-weight: bolder;
+}
+.sheng-text h1{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 10px 7px;
+    color: #888;
+}
+.sheng-text h2{
+    display: inline;
+    font-size: 13px;
+    font-weight: 200;
+    padding-left: 90%;
+    color: #999;
+}
+
+/* 首页的右下角*/
+.front-left{
+    width: 180vh;
+    background-color: #EFEFEF;
+
+}
+
+
+.box11{
+    display: flex;
+    height: 50vh;
+    background-color: #fff
+    
+}
+.box11 img{
+    width: 90vh;
+    height: 50vh;
+}
+.box12{
+    
+    width: 500px;
+    height: 100%;
+    text-align: center;
+    background-color: #d34141;
+    box-shadow: rgba(82, 77, 77, 0.79);
+    border-radius: 10px;
+
+}
+.box12 img{
+    object-fit: cover;
+    width: 100%;
+}
+.box13{
+    width: 100vh;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.box13 p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 10px 7px;
+    color: #0f0e0e;
+}
+.box13 h1{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+/* ******************************************* */
+/* 2025.3.6早上复制 */

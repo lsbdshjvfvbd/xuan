@@ -1,0 +1,60 @@
+
+.mb-sheng p{
+    padding-left: 20px;
+    font-weight: bolder;
+    border-left: 3px solid #000;
+    margin: 20px 0 #fff;
+ }
+.sheng{
+    display: block;
+    width: 1270px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.sheng{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sheng div{
+    flex: 1 0 auto;
+}
+
+.sheng-box{
+    display: flex;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.sheng-box img{
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 15px 19px;
+    border-radius: 10px;
+    background-color: #aab36e;
+}
+
+.sheng-text h4{
+    font-size: 20px;
+    padding-left: 0;
+    color: #000;
+    font-weight: bolder;
+}
+.sheng-text h1{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 10px 7px;
+    color: #888;
+}
+.sheng-text h2{
+    display: inline;
+    font-size: 13px;
+    font-weight: 200;
+    padding-left: 90%;
+    color: #999;
+}

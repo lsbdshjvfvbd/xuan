@@ -1,0 +1,52 @@
+
+.ml-body{
+    width: 1265px;
+    background-color: #EFEFEF;
+}
+.ml-body p{
+    padding-left: 20px;
+    font-weight: bolder;
+    border-left: 3px solid #000;
+    margin: 20px 0 #fff;
+}
+.mlb-zp{
+    width:100%;
+}
+.ml-body ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    width: 100%;
+    padding: 0;
+
+}
+.mlb-zp ul li {  
+    display: block;
+    width: 23%;
+
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 2.6%;
+    margin-top: 20px;
+}
+
+/* 避免塌陷 */
+/* 弹性布局不美观（每行不足4个时，此行不整齐） */
+.mlb-zp ul li:nth-child(4n+4) {
+    margin-right: 0;
+
+}
+
+
+.mlb-zp ul li img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mlb-zp p{
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+
+} 
